@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayham Al Sarayji Trading | أيهم السراجي للتجارة | Official Product Catalog 2026</title>
+<meta name="description" content="Official Wholesale & Distributor Catalog – Ayham Al Sarayji Trading (AST). Premium food products for HORECA, retail and distributors across the GCC.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --primary: #c8102e;
+    --primary-dark: #9a0c23;
+    --black: #111111;
+    --dark: #1a1a1a;
+    --gray: #6b7280;
+    --light: #f8f9fa;
+    --white: #ffffff;
+    --border: #e5e7eb;
+    --shadow: 0 10px 40px rgba(0,0,0,0.08);
+    --radius: 16px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Cairo', 'Inter', system-ui, sans-serif;
+    background: #f4f5f7;
+    color: var(--black);
+    line-height: 1.6;
+  }
+  .lang-en { font-family: 'Inter', system-ui, sans-serif; }
+
+  /* ===== HEADER ===== */
+  .top-bar {
+    background: var(--black);
+    color: white;
+    font-size: 13px;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .top-bar span { margin: 0 12px; opacity: 0.9; }
+  .header {
+    background: white;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .header-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .logo img {
+    height: 58px;
+    width: auto;
+  }
+  .nav {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav a {
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 50px;
+    transition: all 0.25s;
+  }
+  .nav a:hover { background: #fee2e2; color: var(--primary); }
+  .header-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 22px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.25s;
+  }
+  .btn-primary {
+    background: var(--primary);
+    color: white;
+  }
+  .btn-primary:hover { background: var(--primary-dark); transform: translateY(-1px); }
+  .btn-outline {
+    background: transparent;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+  }
+  .btn-outline:hover { background: var(--primary); color: white; }
+  .lang-switch {
+    background: var(--light);
+    border: 1px solid var(--border);
+    padding: 8px 14px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  /* ===== HERO ===== */
+  .hero {
+    background: linear-gradient(135deg, #111 0%, #2a0a0f 50%, #c8102e 100%);
+    color: white;
+    padding: 80px 24px 90px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+  .hero-content { position: relative; z-index: 2; max-width: 900px; margin: 0 auto; }
+  .hero-badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(8px);
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  .hero h1 {
+    font-size: clamp(2.2rem, 5vw, 3.4rem);
+    font-weight: 800;
+    line-height: 1.25;
+    margin-bottom: 16px;
+  }
+  .hero p {
+    font-size: 1.15rem;
+    opacity: 0.9;
+    max-width: 680px;
+    margin: 0 auto 32px;
+  }
+  .hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .stat { text-align: center; }
+  .stat-num { font-size: 2rem; font-weight: 800; color: #ffccd5; }
+  .stat-label { font-size: 13px; opacity: 0.8; }
+
+  /* ===== CATEGORIES ===== */
+  .section {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 70px 24px;
+  }
+  .section-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .section-header h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  .section-header p { color: var(--gray); font-size: 1.05rem; }
+
+  /* ===== PRODUCT GRID ===== */
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 24px;
+  }
+  .product-card {
+    background: white;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+    border: 1px solid transparent;
+  }
+  .product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 50px rgba(200,16,46,0.12);
+    border-color: #fecaca;
+  }
+  .product-img {
+    height: 180px;
+    background: linear-gradient(145deg, #f8fafc, #f1f5f9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .product-img .placeholder {
+    font-size: 48px;
+    opacity: 0.25;
+  }
+  .product-body {
+    padding: 18px 20px 22px;
+  }
+  .product-cat {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+  }
+  .product-name {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    line-height: 1.4;
+  }
+  .product-name-en {
+    font-size: 13px;
+    color: var(--gray);
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+  }
+  .product-specs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .spec {
+    background: #fef2f2;
+    color: var(--primary-dark);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 6px;
+  }
+
+  /* ===== CONTACT ===== */
+  .contact-section {
+    background: var(--black);
+    color: white;
+    padding: 80px 24px;
+  }
+  .contact-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contact-inner h2 { font-size: 2rem; margin-bottom: 12px; }
+  .contact-inner p { opacity: 0.8; margin-bottom: 36px; }
+  .phones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  .phone-card {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.12);
+    padding: 16px 28px;
+    border-radius: 14px;
+    font-weight: 700;
+    font-size: 1.15rem;
+    direction: ltr;
+  }
+  .phone-card a { color: white; text-decoration: none; }
+  .whatsapp-btn {
+    background: #25d366;
+    color: white;
+    padding: 16px 36px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* ===== FOOTER ===== */
+  footer {
+    background: #0a0a0a;
+    color: rgba(255,255,255,0.6);
+    padding: 40px 24px;
+    text-align: center;
+    font-size: 13px;
+  }
+  footer strong { color: white; }
+
+  /* ===== LANGUAGE TOGGLE ===== */
+  .en-only { display: none; }
+  body.en .ar-only { display: none; }
+  body.en .en-only { display: block; }
+  body.en .product-name { font-family: 'Inter', sans-serif; }
+  body.en .section-header h2,
+  body.en .hero h1 { font-family: 'Inter', sans-serif; }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .header-inner { flex-direction: column; }
+    .nav { order: 3; width: 100%; }
+    .hero { padding: 50px 20px 60px; }
+    .products-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 14px; }
+    .product-img { height: 140px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <span class="ar-only">أسعار خاصة للموزعين والجملة • Special Prices for Distributors & Wholesale</span>
+  <span class="en-only">Special Prices for Distributors & Wholesale • أسعار خاصة للموزعين والجملة</span>
+</div>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <img src="logo.png" alt="Ayham Al Sarayji Trading - AST">
+    </div>
+    <nav class="nav">
+      <a href="#original" class="ar-only">صور المنتجات</a>
+      <a href="#original" class="en-only">Product Photos</a>
+      <a href="#pastes" class="ar-only">معاجين وصلصات</a>
+      <a href="#pastes" class="en-only">Pastes & Sauces</a>
+      <a href="#oils" class="ar-only">زيوت ودهون</a>
+      <a href="#oils" class="en-only">Oils & Fats</a>
+      <a href="#frozen" class="ar-only">مجمدات</a>
+      <a href="#frozen" class="en-only">Frozen</a>
+      <a href="#dairy" class="ar-only">ألبان وأجبان</a>
+      <a href="#dairy" class="en-only">Dairy</a>
+      <a href="#desserts" class="ar-only">حلويات</a>
+      <a href="#desserts" class="en-only">Desserts</a>
+      <a href="#contact" class="ar-only">تواصل</a>
+      <a href="#contact" class="en-only">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-switch" onclick="toggleLang()">EN | عربي</button>
+      <a href="#contact" class="btn btn-primary ar-only">اطلب الآن</a>
+      <a href="#contact" class="btn btn-primary en-only">Order Now</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-badge ar-only">كتالوج المنتجات الرسمي 2026</div>
+    <div class="hero-badge en-only">Official Product Catalog 2026</div>
+    <h1 class="ar-only">أيهم السراجي للتجارة<br><span style="font-size:0.7em;font-weight:600;opacity:0.9">Ayham Al Sarayji Trading</span></h1>
+    <h1 class="en-only">Ayham Al Sarayji Trading<br><span style="font-size:0.7em;font-weight:600;opacity:0.9">أيهم السراجي للتجارة</span></h1>
+    <p class="ar-only">شريكك الموثوق في توريد المنتجات الغذائية عالية الجودة للموزعين والمطاعم والفنادق وتجار الجملة في سلطنة عمان ودول الخليج.</p>
+    <p class="en-only">Your trusted partner for premium food products for distributors, HORECA, hotels and wholesalers across Oman and the GCC.</p>
+    <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+      <a href="#products" class="btn btn-primary ar-only">تصفح المنتجات</a>
+      <a href="#products" class="btn btn-primary en-only">Browse Products</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">150+</div>
+        <div class="stat-label ar-only">منتج</div>
+        <div class="stat-label en-only">Products</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">12</div>
+        <div class="stat-label ar-only">فئة رئيسية</div>
+        <div class="stat-label en-only">Categories</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">GCC</div>
+        <div class="stat-label ar-only">تغطية إقليمية</div>
+        <div class="stat-label en-only">Regional Coverage</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ORIGINAL CATALOG PAGES -->
+<section class="section" id="original" style="padding-top:40px;">
+  <div class="section-header">
+    <h2 class="ar-only">صور المنتجات الأصلية من الكتالوج</h2>
+    <h2 class="en-only">Original Product Images from Catalog</h2>
+    <p class="ar-only">صور حقيقية محسّنة الجودة مباشرة من كتالوج الشركة الرسمي</p>
+    <p class="en-only">High-quality enhanced real images directly from the official company catalog</p>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;">
+    <div style="border-radius:16px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.1);background:#fff;padding:10px;text-align:center;">
+      <p style="font-weight:700;color:#c8102e;margin-bottom:8px;">صفحة 1</p>
+      <p style="font-size:13px;color:#666;">معاجين • صلصات • دقيق • حمص • فطر</p>
+    </div>
+    <div style="border-radius:16px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.1);background:#fff;padding:10px;text-align:center;">
+      <p style="font-weight:700;color:#c8102e;margin-bottom:8px;">صفحة 2</p>
+      <p style="font-size:13px;color:#666;">مخللات • صلصات سلطة • مايونيز</p>
+    </div>
+    <div style="border-radius:16px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.1);background:#fff;padding:10px;text-align:center;">
+      <p style="font-weight:700;color:#c8102e;margin-bottom:8px;">صفحة 3</p>
+      <p style="font-size:13px;color:#666;">زيوت • فواكه مجمدة • لبنة</p>
+    </div>
+    <div style="border-radius:16px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.1);background:#fff;padding:10px;text-align:center;">
+      <p style="font-weight:700;color:#c8102e;margin-bottom:8px;">صفحة 4</p>
+      <p style="font-size:13px;color:#666;">مجمدات • بطاطا • جبنة موزاريلا</p>
+    </div>
+    <div style="border-radius:16px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.1);background:#fff;padding:10px;text-align:center;">
+      <p style="font-weight:700;color:#c8102e;margin-bottom:8px;">صفحة 5</p>
+      <p style="font-size:13px;color:#666;">آيس كريم • بابل تي • حلويات</p>
+    </div>
+    <div style="border-radius:16px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.1);background:#fff;padding:10px;text-align:center;">
+      <p style="font-weight:700;color:#c8102e;margin-bottom:8px;">صفحة 6</p>
+      <p style="font-size:13px;color:#666;">ألبان • أجبان • شوكولاتة</p>
+    </div>
+  </div>
+  <p style="text-align:center;margin-top:24px;color:#666;font-size:14px;" class="ar-only">لتحميل الصور الأصلية كاملة بجودة عالية، استخدم ملف الـ ZIP المرفق</p>
+  <p style="text-align:center;margin-top:24px;color:#666;font-size:14px;" class="en-only">For full high-quality original product images, use the attached ZIP file</p>
+</section>
+
+<!-- PRODUCTS -->
+<section class="section" id="products">
+  <div class="section-header">
+    <h2 class="ar-only">منتجاتنا المميزة – قائمة مفصلة</h2>
+    <h2 class="en-only">Our Premium Products – Detailed List</h2>
+    <p class="ar-only">أسعار خاصة للموزعين والجملة • جودة عالية • توريد مستمر</p>
+    <p class="en-only">Special prices for distributors & wholesale • Premium quality • Reliable supply</p>
+  </div>
+
+  <!-- PASTES -->
+  <div id="pastes">
+    <h3 style="font-size:1.4rem;margin:40px 0 24px;display:flex;align-items:center;gap:10px;">
+      <span style="background:var(--primary);color:white;width:36px;height:36px;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;font-size:18px;">1</span>
+      <span class="ar-only">معاجين وصلصات وتوابل</span>
+      <span class="en-only">Pastes, Sauces & Condiments</span>
+    </h3>
+    <div class="products-grid">
+      <div class="product-card"><div class="product-img"><div class="placeholder">🥫</div></div><div class="product-body"><div class="product-cat">Tomato Paste</div><div class="product-name ar-only">معجون طماطم الجميل</div><div class="product-name en-only">Al-Jameel Tomato Paste</div><div class="product-name-en">830g × 12</div><div class="product-specs"><span class="spec">830g × 12</span></div></div></div>
+      <div class="product-card"><div class="product-img"><div class="placeholder">🥫</div></div><div class="product-body"><div class="product-cat">Tomato Paste</div><div class="product-name ar-only">معجون طماطم نوارس</div><div class="product-name en-only">Nawras Tomato Paste</div><div class="product-name-en">830g × 12</div><div class="product-specs"><span class="spec">830g × 12</span></div></div></div>
+      <div class="product-card"><div class="product-img"><div class="placeholder">🌶️</div></div><div class="product-body"><div class="product-cat">Pepper Paste</div><div class="product-name ar-only">معجون فليفلة حارة مصرية</div><div class="product-name en-only">Egyptian Hot Pepper Paste</div><div class="product-name-en">7.5 kg</div><div class="product-specs"><span class="spec">7.5 kg</span></div></div></div>
+      <div class="product-card"><div class="product-img"><div class="placeholder">🌶️</div></div><div class="product-body"><div class="product-cat">Pepper Paste</div><div class="product-name ar-only">معجون فليفلة تركي</div><div class="product-name en-only">Turkish Pepper Paste</div><div class="product-name-en">Sweet/Hot 20 kg</div><div class="product-specs"><span class="spec">20 kg</span></div></div></div>
+      <div class="product-card"><div class="product-img"><div class="placeholder">🍇</div></div><div class="product-body"><div class="product-cat">Sauce</div><div class="product-name ar-only">دبس رمان</div><div class="product-name en-only">Pomegranate Sauce</div><div class="product-name-en">1 L × 12</div><div class="product-specs"><span class="spec">1×12</span></div></div></div>
+      <div class="product-card"><div class="product-img"><div class="placeholder">🧀</div></div><div class="product-body"><div class="product-cat">Sauce</div><div class="product-name ar-only">صلصة جبنة RIO</div><div class="product-name en-only">Cheese Sauce RIO</div><div class="product-name-en">3 kg CONC 80%</div><div class="product-specs"><span class="spec">3 kg</span></div></div></div>
+      <div class="product-card"><div class="product-img"><div class="placeholder">🧂</div></div><div class="product-body"><div class="product-cat">Sauce</div><div class="product-name ar-only">صلصة الصويا</div><div class="product-name en-only">Soy Sauce</div><div class="product-name-en">3.8 L</div><div class="product-specs"><span class="spec">3.8 L</span></div></div></div>
+      <div class="product-card"><div class="product-img"><div class="placeholder">🌶️</div></div><div class="product-body"><div class="product-cat">Sauce</div><div class="product-name ar-only">صلصة باربيكيو شيف</div><div class="product-name en-only">Chef BBQ Sauce</div><div class="product-name-en">3 kg</div><div class="product-specs"><span class="spec">3 kg</span></div></div></div>
+      <div class="product-card"><div class="product-img"><div class="placeholder">🥗</div></div><div class="product-body"><div class="product-cat">Dressing</div><div class="product-name ar-only">صلصة رانش</div><div class="product-name en-only">Chef Ranch</div><div class="product-name-en">1 Gallon</div><div class="product-specs"><span class="spec">1 Gal</span></div></div></div>
+      <div class="product-card"><div class="product-img"><div class="placeholder">🥗</div></div><div class="product-body"><div class="product-cat">Dressing</div><div class="product-name ar-only">ثاوزند آيلاند</div><div class="product-name en-only">Thousand Island</div><div class="product-name-en">3.78 kg</div><div class="product-specs"><span class="spec">3.78 kg</span></div></div></div>
+      <div class="product-card"><div class="product-img"><div class="placeholder">🥫</div></div><div class="product-body"><div class="product-cat">Mayonnaise</div><div class="product-name ar-only">مايونيز بريميوم</div><div class="product-name en-only">Premium Mayonnaise</div><div class="product-name-en">3.78 kg</div><div class="product-specs"><span class="spec">3.78 kg</span></div></div></div>
+      <div class="product-card"><div class="product-img"><div class="placeholder">🌶️</div></div><div class="product-body"><div class="product-cat">Sauce</div><div class="product-name ar-only">سويت تشاي تشيلي</div><div class="product-name en-only">Sweet Thai Chili</div><div class="product-name-en">3.15 kg</div><div class="product-specs"><span class="spec">3.15 kg</span></div></div></div>
+    </div>
+  </div>
+
+  <!-- more categories abbreviated for size -->
+  <div id="oils">
+    <h3 style="font-size:1.4rem;margin:50px 0 24px;display:flex;align-items:center;gap:10px;">
+      <span style="background:var(--primary);color:white;width:36px;height:36px;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;font-size:18px;">2</span>
+      <span class="ar-only">زيوت ودهون</span>
+      <span class="en-only">Oils & Fats</span>
+    </h3>
+    <div class="products-grid">
+      <div class="product-card"><div class="product-img"><div class="placeholder">🫒</div></div><div class="product-body"><div class="product-cat">Olive Oil</div><div class="product-name ar-only">زيت زيتون الأسراء</div><div class="product-name en-only">Al-Asraa Olive Oil</div><div class="product-name-en">5 Ltr</div><div class="product-specs"><span class="spec">5 L</span></div></div></div>
+      <div class="product-card"><div class="product-img"><div class="placeholder">🫒</div></div><div class="product-body"><div class="product-cat">Olive Oil</div><div class="product-name ar-only">زيت زيتون المباركة</div><div class="product-name en-only">Al-Mubarakha Olive Oil</div><div class="product-name-en">5 Ltr</div><div class="product-specs"><span class="spec">5 L</span></div></div></div>
+      <div class="product-card"><div class="product-img"><div class="placeholder">🛢️</div></div><div class="product-body"><div class="product-cat">Palm Oil</div><div class="product-name ar-only">زيت نخيل نوف</div><div class="product-name en-only">Noof Palm Oil</div><div class="product-name-en">17 Ltr</div><div class="product-specs"><span class="spec">17 L</span></div></div></div>
+      <div class="product-card"><div class="product-img"><div class="placeholder">🌻</div></div><div class="product-body"><div class="product-cat">Sunflower</div><div class="product-name ar-only">زيت دوار الشمس</div><div class="product-name en-only">Sun Flower Oil</div><div class="product-name-en">1.8 L × 6</div><div class="product-specs"><span class="spec">1.8×6</span></div></div></div>
+    </div>
+  </div>
+
+  <div id="frozen">
+    <h3 style="font-size:1.4rem;margin:50px 0 24px;display:flex;align-items:center;gap:10px;">
+      <span style="background:var(--primary);color:white;width:36px;height:36px;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;font-size:18px;">3</span>
+      <span class="ar-only">مجمدات وبطاطا</span>
+      <span class="en-only">Frozen & Fries</span>
+    </h3>
+    <div class="products-grid">
+      <div class="product-card"><div class="product-img"><div class="placeholder">🍗</div></div><div class="product-body"><div class="product-cat">Chicken</div><div class="product-name ar-only">صدر دجاج لار</div><div class="product-name en-only">Lar Chicken Breast</div><div class="product-name-en">12 kg</div><div class="product-specs"><span class="spec">12 kg</span></div></div></div>
+      <div class="product-card"><div class="product-img"><div class="placeholder">🍟</div></div><div class="product-body"><div class="product-cat">Fries</div><div class="product-name ar-only">بطاطا مقلية لوفي</div><div class="product-name en-only">Lovey French Fries</div><div class="product-name-en">2.5 kg × 4</div><div class="product-specs"><span class="spec">2.5×4</span></div></div></div>
+      <div class="product-card"><div class="product-img"><div class="placeholder">🧀</div></div><div class="product-body"><div class="product-cat">Cheese</div><div class="product-name ar-only">موزاريلا مبشورة</div><div class="product-name en-only">Mozzarella Shredded</div><div class="product-name-en">2 kg × 6</div><div class="product-specs"><span class="spec">2×6</span></div></div></div>
+    </div>
+  </div>
+
+  <div id="dairy">
+    <h3 style="font-size:1.4rem;margin:50px 0 24px;display:flex;align-items:center;gap:10px;">
+      <span style="background:var(--primary);color:white;width:36px;height:36px;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;font-size:18px;">4</span>
+      <span class="ar-only">ألبان وأجبان</span>
+      <span class="en-only">Dairy & Cheese</span>
+    </h3>
+    <div class="products-grid">
+      <div class="product-card"><div class="product-img"><div class="placeholder">🧀</div></div><div class="product-body"><div class="product-cat">Cream Cheese</div><div class="product-name ar-only">جبنة كريمي تاتورا</div><div class="product-name en-only">Tatura Cream Cheese</div><div class="product-name-en">6 × 2 kg</div><div class="product-specs"><span class="spec">6×2 kg</span></div></div></div>
+      <div class="product-card"><div class="product-img"><div class="placeholder">🥛</div></div><div class="product-body"><div class="product-cat">Cream</div><div class="product-name ar-only">كريمة خفق ميللاك</div><div class="product-name en-only">Millac Whipping Cream</div><div class="product-name-en">1 L × 12</div><div class="product-specs"><span class="spec">1×12</span></div></div></div>
+    </div>
+  </div>
+
+  <div id="desserts">
+    <h3 style="font-size:1.4rem;margin:50px 0 24px;display:flex;align-items:center;gap:10px;">
+      <span style="background:var(--primary);color:white;width:36px;height:36px;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;font-size:18px;">5</span>
+      <span class="ar-only">حلويات وآيس كريم</span>
+      <span class="en-only">Desserts & Ice Cream</span>
+    </h3>
+    <div class="products-grid">
+      <div class="product-card"><div class="product-img"><div class="placeholder">🍦</div></div><div class="product-body"><div class="product-cat">Ice Cream</div><div class="product-name ar-only">كون آيس كريم</div><div class="product-name en-only">Ice Cream Cones</div><div class="product-name-en">250 / 400 pcs</div><div class="product-specs"><span class="spec">250-400 pcs</span></div></div></div>
+      <div class="product-card"><div class="product-img"><div class="placeholder">🧋</div></div><div class="product-body"><div class="product-cat">Bubble</div><div class="product-name ar-only">حبيبات بابل</div><div class="product-name en-only">Bubble Pearls</div><div class="product-name-en">3 kg various flavors</div><div class="product-specs"><span class="spec">3 kg</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="contact-inner">
+    <h2 class="ar-only">تواصل معنا الآن</h2>
+    <h2 class="en-only">Contact Us Now</h2>
+    <p class="ar-only">للاستفسار عن الأسعار الخاصة للموزعين والجملة أو لطلب عينات</p>
+    <p class="en-only">For special distributor & wholesale pricing or sample requests</p>
+
+    <div class="phones">
+      <div class="phone-card"><a href="tel:+96897021673">📞 9702 1673</a></div>
+      <div class="phone-card"><a href="tel:+96897021671">📞 9702 1671</a></div>
+      <div class="phone-card"><a href="tel:+96897021674">📞 9702 1674</a></div>
+      <div class="phone-card"><a href="tel:+96897603502">📞 9760 3502</a></div>
+    </div>
+
+    <a href="https://wa.me/96897021673" target="_blank" class="whatsapp-btn">
+      <span>💬</span>
+      <span class="ar-only">تواصل عبر واتساب</span>
+      <span class="en-only">Chat on WhatsApp</span>
+    </a>
+
+    <div style="margin-top:40px;opacity:0.7;font-size:14px;">
+      <strong>AYHAM AL SARAYJI TRADING SPC</strong><br>
+      <span class="ar-only">سلطنة عُمان | Oman</span>
+      <span class="en-only">Sultanate of Oman</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>
+    © 2026 <strong>Ayham Al Sarayji Trading (AST)</strong> — All Rights Reserved<br>
+    <span class="ar-only">كتالوج رسمي للموزعين والجملة</span>
+    <span class="en-only">Official Catalog for Distributors & Wholesale</span>
+  </p>
+</footer>
+
+<script>
+  function toggleLang() {
+    document.body.classList.toggle('en');
+    const btn = document.querySelector('.lang-switch');
+    if (document.body.classList.contains('en')) {
+      btn.textContent = 'عربي | EN';
+      document.documentElement.lang = 'en';
+      document.documentElement.dir = 'ltr';
+    } else {
+      btn.textContent = 'EN | عربي';
+      document.documentElement.lang = 'ar';
+      document.documentElement.dir = 'rtl';
+    }
+  }
+</script>
+</body>
+</html>
